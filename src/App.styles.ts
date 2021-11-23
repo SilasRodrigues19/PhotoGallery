@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #27282f;
+background: url("https://i1.adis.ws/i/canon/01-hero-9bf149ae-10ea-11ea-9be7-e4a471390b01?w=100%&sm=aspect&aspect=16:9&qlt=100") no-repeat center / cover;
+  font-family: 'Quicksand', sans-serif;
   color: #fff;
   min-height: 100vh;
 `;
@@ -26,6 +27,10 @@ export const ScreenWarning = styled.div`
     font-size: 50px;
     margin-bottom: 20px;
   }
+
+  div {
+    letter-spacing: 5px;
+  }
 `;
 
 export const PhotoList = styled.div`
@@ -35,13 +40,14 @@ export const PhotoList = styled.div`
 `;
 
 export const UploadForm = styled.form`
-  background-color: #3d3f43;
+  background-color: transparent;
+  border: 1px solid #3d3f43;
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 30px;
 
   input[type=submit] {
-    background-color: #756df7;
+    background: #AE4CCF;
     border: 0;
     color: #fff;
     padding: 8px 16px;
@@ -49,9 +55,9 @@ export const UploadForm = styled.form`
     border-radius: 10px;
     margin: 0 20px;
     cursor: pointer;
-
+    
     &:hover {
       opacity: .8;
     }
-  }
+  } 
 `;
