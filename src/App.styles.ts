@@ -4,6 +4,7 @@ export const Container = styled.div`
   background: url('https://cdn.wallpapersafari.com/20/22/P8mUep.jpg') no-repeat
       center / contain,
     #000;
+  background-attachment: fixed;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
   min-height: 100vh;
