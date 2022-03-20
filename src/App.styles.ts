@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background: url("https://i1.adis.ws/i/canon/01-hero-9bf149ae-10ea-11ea-9be7-e4a471390b01?w=100%&sm=aspect&aspect=16:9&qlt=100") no-repeat center / cover;
+  background: url('https://cdn.wallpapersafari.com/20/22/P8mUep.jpg') no-repeat
+      center / contain,
+    #000;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
   min-height: 100vh;
@@ -46,8 +48,8 @@ export const UploadForm = styled.form`
   border-radius: 10px;
   margin-bottom: 30px;
 
-  input[type=submit] {
-    background: #AE4CCF;
+  input[type='submit'] {
+    background: #ae4ccf;
     border: 0;
     color: #fff;
     padding: 8px 16px;
@@ -55,9 +57,9 @@ export const UploadForm = styled.form`
     border-radius: 10px;
     margin: 0 20px;
     cursor: pointer;
-    
+
     &:hover {
-      opacity: .8;
+      opacity: 0.8;
     }
-  } 
+  }
 `;
