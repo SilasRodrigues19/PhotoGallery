@@ -4,13 +4,12 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-
 <!-- PROJECT LOGO -->
 <br />
 <samp>
 <p align="center">
   <a href="https://github.com/SilasRodrigues19/Photo-Gallery">
-    <img src="https://appmasters.io/static/react-47ce6e77f039020ee2e76a10c1e988e9.png" alt="Logo" width="80" height="80">
+    <img src="./public/logo.png" alt="Logo" width="150" height="80">
   </a>
 
   <h3 align="center">Photo Gallery</h3>
@@ -23,8 +22,6 @@
     <a href="https://github.com/SilasRodrigues19/Photo-Gallery/issues">Report Bug</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -42,37 +39,42 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Preview][product-screenshot]](https://github.com/SilasRodrigues19/Photo-Gallery/blob/main/public/preview.png?raw=true)
 
-This project was made during a React Tutorial by Boneky Lacerda
+This project was made during a React Tutorial by Bonieky Lacerda
 
 The website is one page only:
-* **Input and Button**: select the desired image and send it. Allowed type files .png, .jpg, .jpeg and .webp.
-* **Photo Area**: shows all images from Firebase storage in a 2 columns grid.
+
+- **Input and Button**: select the desired image and send it. Allowed type files .png, .jpg, .jpeg and .webp.
+- **Photo Area**: shows all images from Firebase storage in a 2 columns grid.
 
 ### Built With
 
 Technologies used in the project.
 
 ### Technologies
-* [TypeScript](https://www.typescriptlang.org/)
+
+- [TypeScript](https://www.typescriptlang.org/)
 
 ### External Services
-* [Firebase](hhttps://console.firebase.google.com/?hl=pt)
+
+- [Firebase](https://console.firebase.google.com/?hl=pt)
 
 ### Libraries
-* [ReactJS](https://pt-br.reactjs.org/)
-* [Styled Components](https://styled-components.com/)
+
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
 
 ### Font Script
-* [Font Awesome](https://fontawesome.com)
+
+- [Font Awesome](https://fontawesome.com)
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -83,24 +85,23 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
 <!-- CONTACT -->
+
 ## Contact
 
 Silas Rodrigues - [@jinuye1](https://twitter.com/jinuye1) - silasrodrigues.fatec@gmail.com
 
 Project Link: [https://github.com/SilasRodrigues19/Photo-Gallery](https://github.com/SilasRodrigues19/Photo-Gallery) <br>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/SilasRodrigues19/Photo-Gallery.svg?style=for-the-badge
 [contributors-url]: https://github.com/SilasRodrigues19/Photo-Gallery/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/SilasRodrigues19/Photo-Gallery.svg?style=for-the-badge
