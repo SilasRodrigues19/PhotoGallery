@@ -9960,9 +9960,9 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
 
-typescript@^4.1.2:
-  version "4.4.4"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.4.tgz"
+typescript@^4.7.3:
+  version "4.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.3.tgz#8364b502d5257b540f9de4c40be84c98e23a129d"
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
