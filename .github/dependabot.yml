@@ -1,0 +1,16 @@
+# Configuração básica para três gerenciadores de pacotes
+
+versão: 2
+atualizações:
+
+  # Manter dependências para o GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Manter dependências para npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
