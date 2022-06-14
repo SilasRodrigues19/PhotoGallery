@@ -2893,11 +2893,17 @@
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
 
-"@types/react-dom@<18.0.0", "@types/react-dom@^17.0.10":
+"@types/react-dom@<18.0.0":
   version "17.0.17"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
   dependencies:
     "@types/react" "^17"
+
+"@types/react-dom@^18.0.5":
+  version "18.0.5"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.5.tgz#330b2d472c22f796e5531446939eacef8378444a"
+  dependencies:
+    "@types/react" "*"
 
 "@types/react@*", "@types/react@^18.0.12":
   version "18.0.12"
@@ -5061,6 +5067,20 @@ find-up@^3.0.0:
   resolved "https://registry.npmjs.org/find-up/-/find-up-3.0.0.tgz"
   dependencies:
     locate-path "^3.0.0"
+
+find-up@^4.0.0, find-up@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  dependencies:
+    locate-path "^5.0.0"
+    path-exists "^4.0.0"
+
+find-up@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
+  dependencies:
+    locate-path "^6.0.0"
+    path-exists "^4.0.0"
 
 firebase@^9.8.3:
   version "9.8.3"
