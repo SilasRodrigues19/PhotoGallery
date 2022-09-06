@@ -2,29 +2,28 @@
 
 version: 2
 updates:
-
   # Manter dependências para o GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
 
   # Manter dependências para npm
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
     # Labels específicas pra PR'S do npm
     labels:
-      - "npm"
-      - "dependencies"
+      - 'npm'
+      - 'dependencies'
     commit-message:
       # Prefixo de todos commits com "build"
-      prefix: "build"
+      prefix: 'chore(deps)'
       # Usuários que vão revisar os PR's
     reviewers:
-      - "SilasRodrigues19"
+      - 'SilasRodrigues19'
       # Usuários responsáveis
     assignees:
-      - "SilasRodrigues19"
+      - 'SilasRodrigues19'
     open-pull-requests-limit: 10
