@@ -44,7 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@iconify/react": "^3.2.2",
+    "@iconify/react": "^4.0.0",
     "@types/styled-components": "^5.1.26",
     "@types/uuid": "^8.3.4"
   }
