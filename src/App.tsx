@@ -5,6 +5,11 @@ import { Photo } from './types/Photo'
 import { PhotoItem } from './components/PhotoItem'
 import { Icon } from '@iconify/react';
 
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+const MySwal = withReactContent(Swal)
+
 const App = () => {
   const [uploading, setUploading] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -17,6 +22,7 @@ const App = () => {
   const getPhotos = async () => {
     setLoading(true);
     setPhotos(await Photos.getAll());
+    MySwal.close();
     setLoading(false);
   }
 
@@ -40,18 +46,31 @@ const App = () => {
       }
     }
   }
+  
 
   const handleDeleteButton = async (name: string) => {
-    await Photos.deletePhoto(name);
-    getPhotos();
+    if (window.confirm("Realmente deseja apagar?")) {
+      await Photos.deletePhoto(name);
+      Swal.fire({
+        title: 'Deletando',
+        html: 'Aguarde, por favor...',
+        showConfirmButton: false,
+        allowOutsideClick: false,
+      });
+      MySwal.showLoading();
+      getPhotos();
+    } else {
+      return false;
+    }
   }
+
 
   return (
     <C.Container>
       <C.Area>
         <C.Header>Galeria de Fotos</C.Header>
         <C.UploadForm method="POST" onSubmit={handleFormSubmit}>
-          <input type="file" name="image" accept=".png, .jpg, .jpeg, .webp" />
+          <input type="file" name="image" accept="image/*" />
           <input type="submit" value="Enviar" />
           {uploading && "Enviando..."}
         </C.UploadForm>
