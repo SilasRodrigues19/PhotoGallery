@@ -1844,11 +1844,11 @@
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
 
-"@firebase/app-compat@0.1.33":
-  version "0.1.33"
-  resolved "https://registry.yarnpkg.com/@firebase/app-compat/-/app-compat-0.1.33.tgz#18632ed97df411183db2f54802e4a6720106ee95"
+"@firebase/app-compat@0.1.34":
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/@firebase/app-compat/-/app-compat-0.1.34.tgz#a54fc94e464d3fabe502506a68ab563b53b14624"
   dependencies:
-    "@firebase/app" "0.7.32"
+    "@firebase/app" "0.7.33"
     "@firebase/component" "0.5.17"
     "@firebase/logger" "0.3.3"
     "@firebase/util" "1.6.3"
@@ -1858,9 +1858,9 @@
   version "0.7.0"
   resolved "https://registry.npmjs.org/@firebase/app-types/-/app-types-0.7.0.tgz"
 
-"@firebase/app@0.7.32":
-  version "0.7.32"
-  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.7.32.tgz#b4ea8125b184e34914e13f30f881f3ad5c65f840"
+"@firebase/app@0.7.33":
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.7.33.tgz#499c6febe8608d68090c4e3a5204004bb995f819"
   dependencies:
     "@firebase/component" "0.5.17"
     "@firebase/logger" "0.3.3"
@@ -1868,11 +1868,11 @@
     idb "7.0.1"
     tslib "^2.1.0"
 
-"@firebase/auth-compat@0.2.19":
-  version "0.2.19"
-  resolved "https://registry.yarnpkg.com/@firebase/auth-compat/-/auth-compat-0.2.19.tgz#cc56453c6c804fba1c3f124269d2ebf9e0e0419e"
+"@firebase/auth-compat@0.2.20":
+  version "0.2.20"
+  resolved "https://registry.yarnpkg.com/@firebase/auth-compat/-/auth-compat-0.2.20.tgz#c5cd1c0abc5825c634adeaf5d767067c53a17c46"
   dependencies:
-    "@firebase/auth" "0.20.6"
+    "@firebase/auth" "0.20.7"
     "@firebase/auth-types" "0.11.0"
     "@firebase/component" "0.5.17"
     "@firebase/util" "1.6.3"
@@ -1888,9 +1888,9 @@
   version "0.11.0"
   resolved "https://registry.npmjs.org/@firebase/auth-types/-/auth-types-0.11.0.tgz"
 
-"@firebase/auth@0.20.6":
-  version "0.20.6"
-  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.20.6.tgz#cfdf97dd9d7768a9ab15405b37750c7af8b158e8"
+"@firebase/auth@0.20.7":
+  version "0.20.7"
+  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.20.7.tgz#50a79d3dfac802bc8383e8182057deda1595b62b"
   dependencies:
     "@firebase/component" "0.5.17"
     "@firebase/logger" "0.3.3"
@@ -1935,12 +1935,12 @@
     faye-websocket "0.11.4"
     tslib "^2.1.0"
 
-"@firebase/firestore-compat@0.1.24":
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore-compat/-/firestore-compat-0.1.24.tgz#4f5ed839ea387a21156b485e365aaa5818e50705"
+"@firebase/firestore-compat@0.1.25":
+  version "0.1.25"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore-compat/-/firestore-compat-0.1.25.tgz#77ffdbc49d5734be60762a45c0f4d855772d1e46"
   dependencies:
     "@firebase/component" "0.5.17"
-    "@firebase/firestore" "3.4.15"
+    "@firebase/firestore" "3.5.0"
     "@firebase/firestore-types" "2.5.0"
     "@firebase/util" "1.6.3"
     tslib "^2.1.0"
@@ -1949,14 +1949,14 @@
   version "2.5.0"
   resolved "https://registry.npmjs.org/@firebase/firestore-types/-/firestore-types-2.5.0.tgz"
 
-"@firebase/firestore@3.4.15":
-  version "3.4.15"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-3.4.15.tgz#29f713ae8480b49cb2ed072095d3bd6c65c8bb4c"
+"@firebase/firestore@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-3.5.0.tgz#8938fc8804cd150d154fde7a607a4461b079a62f"
   dependencies:
     "@firebase/component" "0.5.17"
     "@firebase/logger" "0.3.3"
     "@firebase/util" "1.6.3"
-    "@firebase/webchannel-wrapper" "0.6.2"
+    "@firebase/webchannel-wrapper" "0.7.0"
     "@grpc/grpc-js" "^1.3.2"
     "@grpc/proto-loader" "^0.6.13"
     node-fetch "2.6.7"
@@ -2120,9 +2120,9 @@
   dependencies:
     tslib "^2.1.0"
 
-"@firebase/webchannel-wrapper@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.6.2.tgz#6d05fa126104c9907573364dc04147b89b530e15"
+"@firebase/webchannel-wrapper@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.7.0.tgz#a928358aac3aca652f417c402950d05a7a81d256"
 
 "@grpc/grpc-js@^1.3.2":
   version "1.4.2"
@@ -2696,6 +2696,10 @@
     "@svgr/plugin-jsx" "^5.5.0"
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
+
+"@sweetalert2/theme-dark@^5.0.12":
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@sweetalert2/theme-dark/-/theme-dark-5.0.12.tgz#42649fc619c4c96ae418cd9412cd60005ac7bdcd"
 
 "@testing-library/dom@^8.5.0":
   version "8.13.0"
@@ -5122,23 +5126,23 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase@^9.9.4:
-  version "9.9.4"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-9.9.4.tgz#bf13706eff90f40a8dc9de803223a728447a6279"
+firebase@^9.10.0:
+  version "9.10.0"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-9.10.0.tgz#07e22bddce3cc1f380c440edc6286c09ac6cce8f"
   dependencies:
     "@firebase/analytics" "0.8.0"
     "@firebase/analytics-compat" "0.1.13"
-    "@firebase/app" "0.7.32"
+    "@firebase/app" "0.7.33"
     "@firebase/app-check" "0.5.12"
     "@firebase/app-check-compat" "0.2.12"
-    "@firebase/app-compat" "0.1.33"
+    "@firebase/app-compat" "0.1.34"
     "@firebase/app-types" "0.7.0"
-    "@firebase/auth" "0.20.6"
-    "@firebase/auth-compat" "0.2.19"
+    "@firebase/auth" "0.20.7"
+    "@firebase/auth-compat" "0.2.20"
     "@firebase/database" "0.13.6"
     "@firebase/database-compat" "0.2.6"
-    "@firebase/firestore" "3.4.15"
-    "@firebase/firestore-compat" "0.1.24"
+    "@firebase/firestore" "3.5.0"
+    "@firebase/firestore-compat" "0.1.25"
     "@firebase/functions" "0.8.4"
     "@firebase/functions-compat" "0.2.4"
     "@firebase/installations" "0.5.12"
@@ -8676,6 +8680,14 @@ svgo@^2.7.0:
     csso "^4.2.0"
     picocolors "^1.0.0"
     stable "^0.1.8"
+
+sweetalert2-react-content@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/sweetalert2-react-content/-/sweetalert2-react-content-5.0.3.tgz#1c7d38d01cbaf7abc7311ef5d77698ed23dc1087"
+
+sweetalert2@^11.4.33:
+  version "11.4.33"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.33.tgz#7aaf12d63aca41dd3f8e095e48b387d630104f10"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
