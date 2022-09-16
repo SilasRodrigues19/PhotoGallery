@@ -11,7 +11,7 @@ export const Container = styled.div`
   padding: 10px;
 
   img {
-    height: 250px;
+    height: 150px;
     max-width: 100%;
     max-height: 300px;
     display: block;
