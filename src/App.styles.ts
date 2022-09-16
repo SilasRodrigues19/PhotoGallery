@@ -1,13 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('https://cdn.wallpapersafari.com/20/22/P8mUep.jpg') no-repeat
-      center / contain,
-    #000;
-  background-attachment: fixed;
+  min-height: 100vh;
+  background: #000;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
-  min-height: 100vh;
 `;
 
 export const Area = styled.div`
@@ -38,8 +35,13 @@ export const ScreenWarning = styled.div`
 
 export const PhotoList = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+  }
 `;
 
 export const UploadForm = styled.form`
@@ -48,6 +50,9 @@ export const UploadForm = styled.form`
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   input[type='submit'] {
     background: #ae4ccf;
