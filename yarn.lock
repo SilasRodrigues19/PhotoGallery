@@ -2933,7 +2933,7 @@
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
 
-"@types/react-dom@^18.0.0", "@types/react-dom@^18.0.8":
+"@types/react-dom@^18.0.0", "@types/react-dom@^18.0.6":
   version "18.0.8"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.8.tgz#d2606d855186cd42cc1b11e63a71c39525441685"
   dependencies:
@@ -8653,9 +8653,9 @@ sweetalert2-react-content@^5.0.5:
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/sweetalert2-react-content/-/sweetalert2-react-content-5.0.5.tgz#b30167245d9459fe10f304abfeca1b20a78883aa"
 
-sweetalert2@^11.6.2:
-  version "11.6.2"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.6.2.tgz#282e01bf0c4a70bda5c6dc00e384ee85c228e9c3"
+sweetalert2@^11.6.4:
+  version "11.6.4"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.6.4.tgz#8d0bcfcc9af415319f9e93262923b49834da729c"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
