@@ -2669,9 +2669,9 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@sweetalert2/theme-dark@^5.0.13":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@sweetalert2/theme-dark/-/theme-dark-5.0.13.tgz#c0c261b524e033c18a9274fd799d0dc99bf1ef9c"
+"@sweetalert2/theme-dark@^5.0.14":
+  version "5.0.14"
+  resolved "https://registry.yarnpkg.com/@sweetalert2/theme-dark/-/theme-dark-5.0.14.tgz#9eda0e20ebfd071f035c729c86a2aa494eae1a7c"
 
 "@testing-library/dom@^8.5.0":
   version "8.13.0"
