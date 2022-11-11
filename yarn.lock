@@ -1788,11 +1788,11 @@
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
 
-"@firebase/app-check-compat@0.2.16":
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/@firebase/app-check-compat/-/app-check-compat-0.2.16.tgz#43d0fc6375302b33f4a5fa3e27f585b574df3271"
+"@firebase/app-check-compat@0.2.17":
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/@firebase/app-check-compat/-/app-check-compat-0.2.17.tgz#c949976e8353156d521a52664d3735d4aa3c4417"
   dependencies:
-    "@firebase/app-check" "0.5.16"
+    "@firebase/app-check" "0.5.17"
     "@firebase/app-check-types" "0.4.1"
     "@firebase/component" "0.5.21"
     "@firebase/logger" "0.3.4"
@@ -1807,20 +1807,20 @@
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@firebase/app-check-types/-/app-check-types-0.4.1.tgz#7807e761b119d71562611a14c307ac8ca2981103"
 
-"@firebase/app-check@0.5.16":
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/@firebase/app-check/-/app-check-0.5.16.tgz#b89ddc5853cd0d41576252b851fd4e277722a7f5"
+"@firebase/app-check@0.5.17":
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/@firebase/app-check/-/app-check-0.5.17.tgz#d24aa73f9ac887711c79986c90f18b0f15cb2c14"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/logger" "0.3.4"
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
 
-"@firebase/app-compat@0.1.38":
-  version "0.1.38"
-  resolved "https://registry.yarnpkg.com/@firebase/app-compat/-/app-compat-0.1.38.tgz#952286a578e59b78aed547d73e47db2dbf228677"
+"@firebase/app-compat@0.1.39":
+  version "0.1.39"
+  resolved "https://registry.yarnpkg.com/@firebase/app-compat/-/app-compat-0.1.39.tgz#3ea5465d07855fdb8357a0f63fd113da81468e50"
   dependencies:
-    "@firebase/app" "0.8.3"
+    "@firebase/app" "0.8.4"
     "@firebase/component" "0.5.21"
     "@firebase/logger" "0.3.4"
     "@firebase/util" "1.7.3"
@@ -1830,9 +1830,9 @@
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.8.1.tgz#4c7f916281aed570581fc667e3eb6cc730119a95"
 
-"@firebase/app@0.8.3":
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.8.3.tgz#48c2461c4f26298c2155dd40ee648d2f1fbf80d2"
+"@firebase/app@0.8.4":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.8.4.tgz#e62b47f909e10627f7f377ecfb7b90b921303d21"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/logger" "0.3.4"
@@ -1907,12 +1907,12 @@
     faye-websocket "0.11.4"
     tslib "^2.1.0"
 
-"@firebase/firestore-compat@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore-compat/-/firestore-compat-0.2.2.tgz#5671c41a262fa3067de662aa041d95d9fcb6c990"
+"@firebase/firestore-compat@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore-compat/-/firestore-compat-0.2.3.tgz#da2f4f9a1da8cdf0a83769ec771f64ad7866363c"
   dependencies:
     "@firebase/component" "0.5.21"
-    "@firebase/firestore" "3.7.2"
+    "@firebase/firestore" "3.7.3"
     "@firebase/firestore-types" "2.5.1"
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
@@ -1921,9 +1921,9 @@
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-2.5.1.tgz#464b2ee057956599ca34de50eae957c30fdbabb7"
 
-"@firebase/firestore@3.7.2":
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-3.7.2.tgz#de4ef7ea405082bcf140a59b01b960fc36dc175f"
+"@firebase/firestore@3.7.3":
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-3.7.3.tgz#c839d6983f81d2853daeac42fba316a86102e5e4"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/logger" "0.3.4"
@@ -1989,12 +1989,12 @@
   dependencies:
     tslib "^2.1.0"
 
-"@firebase/messaging-compat@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@firebase/messaging-compat/-/messaging-compat-0.1.20.tgz#b24845b695e00e082c1bfb836938e1665e258120"
+"@firebase/messaging-compat@0.1.21":
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/@firebase/messaging-compat/-/messaging-compat-0.1.21.tgz#1e221cdd186fd48d41a8b9c42fdb912476717939"
   dependencies:
     "@firebase/component" "0.5.21"
-    "@firebase/messaging" "0.10.0"
+    "@firebase/messaging" "0.11.0"
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
 
@@ -2002,9 +2002,9 @@
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@firebase/messaging-interop-types/-/messaging-interop-types-0.1.1.tgz#03733115df2688786be5f96baa64869fb3914d0c"
 
-"@firebase/messaging@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.10.0.tgz#4d7775d73d751e734ee9537068e36a3105aa5c6b"
+"@firebase/messaging@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@firebase/messaging/-/messaging-0.11.0.tgz#ab6dbcd8b95f2b65f2290eb44110979261f84399"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/installations" "0.5.16"
@@ -2013,13 +2013,13 @@
     idb "7.0.1"
     tslib "^2.1.0"
 
-"@firebase/performance-compat@0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@firebase/performance-compat/-/performance-compat-0.1.16.tgz#02933ba40c3b562926c56346a22a47a907aeee6c"
+"@firebase/performance-compat@0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@firebase/performance-compat/-/performance-compat-0.1.17.tgz#23774adda07f6af83299517a202f8d98ebc9a70d"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/logger" "0.3.4"
-    "@firebase/performance" "0.5.16"
+    "@firebase/performance" "0.5.17"
     "@firebase/performance-types" "0.1.1"
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
@@ -2028,9 +2028,9 @@
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@firebase/performance-types/-/performance-types-0.1.1.tgz#ac37fff87f2e716c18fb78c138dc398d9b9aecd7"
 
-"@firebase/performance@0.5.16":
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/@firebase/performance/-/performance-0.5.16.tgz#b73d20ec5954fbd16b7df906289e2c611bd6e3c8"
+"@firebase/performance@0.5.17":
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/@firebase/performance/-/performance-0.5.17.tgz#f0aa9724df9e2ef095f176c2ef1accfa75e3bac6"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/installations" "0.5.16"
@@ -2063,12 +2063,12 @@
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
 
-"@firebase/storage-compat@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@firebase/storage-compat/-/storage-compat-0.1.21.tgz#d9402fe9881552c6e38de11bca7eed950be38949"
+"@firebase/storage-compat@0.1.22":
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/@firebase/storage-compat/-/storage-compat-0.1.22.tgz#0eba37444a525fce3854c68eacc1d2b5d87f8b5a"
   dependencies:
     "@firebase/component" "0.5.21"
-    "@firebase/storage" "0.9.13"
+    "@firebase/storage" "0.9.14"
     "@firebase/storage-types" "0.6.1"
     "@firebase/util" "1.7.3"
     tslib "^2.1.0"
@@ -2077,9 +2077,9 @@
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@firebase/storage-types/-/storage-types-0.6.1.tgz#76b71b6f6ef5df4cf286e63f58e92638b9dcd62d"
 
-"@firebase/storage@0.9.13":
-  version "0.9.13"
-  resolved "https://registry.yarnpkg.com/@firebase/storage/-/storage-0.9.13.tgz#bd06691d4fddd11210acbde0985a1976a7075495"
+"@firebase/storage@0.9.14":
+  version "0.9.14"
+  resolved "https://registry.yarnpkg.com/@firebase/storage/-/storage-0.9.14.tgz#e70a0e6a706df8401acfa9991306b77eb1e32d7d"
   dependencies:
     "@firebase/component" "0.5.21"
     "@firebase/util" "1.7.3"
@@ -5098,35 +5098,35 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase@^9.13.0:
-  version "9.13.0"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-9.13.0.tgz#8f258e1b857c28e55498b788baaca56e46339c62"
+firebase@^9.14.0:
+  version "9.14.0"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-9.14.0.tgz#407de4855092e607d3ee1fb222294ab2b45c4798"
   dependencies:
     "@firebase/analytics" "0.8.4"
     "@firebase/analytics-compat" "0.1.17"
-    "@firebase/app" "0.8.3"
-    "@firebase/app-check" "0.5.16"
-    "@firebase/app-check-compat" "0.2.16"
-    "@firebase/app-compat" "0.1.38"
+    "@firebase/app" "0.8.4"
+    "@firebase/app-check" "0.5.17"
+    "@firebase/app-check-compat" "0.2.17"
+    "@firebase/app-compat" "0.1.39"
     "@firebase/app-types" "0.8.1"
     "@firebase/auth" "0.20.11"
     "@firebase/auth-compat" "0.2.24"
     "@firebase/database" "0.13.10"
     "@firebase/database-compat" "0.2.10"
-    "@firebase/firestore" "3.7.2"
-    "@firebase/firestore-compat" "0.2.2"
+    "@firebase/firestore" "3.7.3"
+    "@firebase/firestore-compat" "0.2.3"
     "@firebase/functions" "0.8.8"
     "@firebase/functions-compat" "0.2.8"
     "@firebase/installations" "0.5.16"
     "@firebase/installations-compat" "0.1.16"
-    "@firebase/messaging" "0.10.0"
-    "@firebase/messaging-compat" "0.1.20"
-    "@firebase/performance" "0.5.16"
-    "@firebase/performance-compat" "0.1.16"
+    "@firebase/messaging" "0.11.0"
+    "@firebase/messaging-compat" "0.1.21"
+    "@firebase/performance" "0.5.17"
+    "@firebase/performance-compat" "0.1.17"
     "@firebase/remote-config" "0.3.15"
     "@firebase/remote-config-compat" "0.1.16"
-    "@firebase/storage" "0.9.13"
-    "@firebase/storage-compat" "0.1.21"
+    "@firebase/storage" "0.9.14"
+    "@firebase/storage-compat" "0.1.22"
     "@firebase/util" "1.7.3"
 
 flat-cache@^3.0.4:
