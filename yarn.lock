@@ -8647,9 +8647,9 @@ sweetalert2-react-content@^5.0.7:
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/sweetalert2-react-content/-/sweetalert2-react-content-5.0.7.tgz#6fd7299978b2e0221d3049746ff2b39c1a7aa72d"
 
-sweetalert2@^11.6.5:
-  version "11.6.5"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.6.5.tgz#ce5d0b2501da2fd502955f3168d18fd3bfb982d9"
+sweetalert2@^11.6.13:
+  version "11.6.13"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.6.13.tgz#81c9c571117a05833f832df61ffd5c7750dcbe37"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
