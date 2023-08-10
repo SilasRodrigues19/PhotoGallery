@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.11",
-    "sweetalert2": "^11.7.20",
+    "sweetalert2": "^11.7.22",
     "sweetalert2-react-content": "^5.0.7",
     "typescript": "^5.1.6",
     "uuid": "^9.0.0",
