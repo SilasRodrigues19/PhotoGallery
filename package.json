@@ -19,7 +19,7 @@
     "sweetalert2": "^11.7.22",
     "sweetalert2-react-content": "^5.0.7",
     "typescript": "^5.1.6",
-    "uuid": "^9.0.0",
+    "uuid": "^9.0.1",
     "web-vitals": "^3.4.0"
   },
   "scripts": {
@@ -49,6 +49,6 @@
   "devDependencies": {
     "@iconify/react": "^4.1.1",
     "@types/styled-components": "^5.1.26",
-    "@types/uuid": "^9.0.2"
+    "@types/uuid": "^9.0.5"
   }
 }
